@@ -19,6 +19,10 @@ python3 kanvas/canvas.py
 python3 kanvas/shapes.py
 python3 kanvas/plot.py
 
+## Example drawings
+
+[Parabola and sphere](http://kdbiosci.blogspot.com/2018/04/shapes.html)
+
 ## License
 
 =========================================================================
