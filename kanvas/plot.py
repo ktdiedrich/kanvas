@@ -104,7 +104,7 @@ class PointData:
             self._vtkCells.InsertNextCell(1)
             self._vtkCells.InsertCellPoint(pointId)
         else:
-            r = np.random.randint(0, self.maxNumPoints)
+            r = np.random.randint(0, self._maxNumPoints)
             self._vtkPoints.SetPoint(r, point[:])
         self._vtkCells.Modified()
         self._vtkPoints.Modified()
