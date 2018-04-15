@@ -21,9 +21,9 @@
 
 import vtk
 import numpy as np
-from canvas import Renderer, RenderWindow, Box, Actor 
-from shapes import parabola3D, ArrowFactory
-from transform import Rotation, rotation, xRotation, yRotation, zRotation
+from kanvas.canvas import Renderer, RenderWindow, Box, Actor 
+from kanvas.shapes import parabola3D, ArrowFactory
+from kanvas.transform import Rotation, rotation, xRotation, yRotation, zRotation
 
 '''Plot points in 3D 
 

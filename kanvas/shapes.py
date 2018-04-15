@@ -23,7 +23,7 @@
 '''
 
 import vtk 
-from canvas import Renderer, RenderWindow, Box 
+from kanvas.canvas import Renderer, RenderWindow, Box 
 
 class ArrowFactory:
     '''Make arrows 

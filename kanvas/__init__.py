@@ -21,5 +21,5 @@
 
 ''': author Karl Diedrich, PhD <ktdiedrich@gmail.com>
 '''
-__all__ = [plot, canvas, shapes, transform]
+__all__ = ["plot", "canvas", "shapes", "transform"]
 
