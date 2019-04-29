@@ -100,8 +100,8 @@ class ConeFactory:
         return self._resolution
 
     @resolution.setter
-    def resolution(self):
-        self.resolution = resolution
+    def resolution(self, value):
+        self.resolution = value
 
 def parabola3D(x, y, k=-1.5, c=0.0):
     '''
